@@ -1,0 +1,13 @@
+server:
+  port: 8011
+spring:
+  redis:
+    host: 188.131.186.15
+    password: yuntuzhilian
+  dubbo:
+    appname: user-consumer
+    registry: zookeeper://127.0.0.1:2181
+swagger:
+  basePackage: com.ytzl.gotrip.controller
+  title: 用户模块API接口
+  description: 用户模块对外API接口
